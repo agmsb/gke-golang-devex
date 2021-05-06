@@ -20,3 +20,11 @@ profiles:
   build:
     googleCloudBuild:
       machineType: e2-highcpu-32
+- name: remote-dev
+  build:
+    googleCloudBuild:
+        machineType: e2-highcpu-32
+  deploy:
+    kustomize:
+      paths:
+      - https://github.com/agmsb/k8s-golden-manifests/golang-devex/overlays/prod
