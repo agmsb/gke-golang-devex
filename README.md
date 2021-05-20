@@ -1,4 +1,4 @@
-# golang-devex
+# gke-golang-devex
 
 This example attempts to provide a developer experience with minimal configuration overhead and fast feedback loops.
 
